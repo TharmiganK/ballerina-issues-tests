@@ -1,0 +1,8 @@
+[package]
+org = "tharmigan"
+name = "issue_326"
+version = "0.1.0"
+distribution = "2201.4.2"
+
+[build-options]
+observabilityIncluded = true
