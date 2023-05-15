@@ -22,7 +22,7 @@ http:Client httpClient = check new (apiConfigurations.baseUrl,
 
 public listener http:Listener listenerPolice = new (9090);
 
-service / on listenerPolice {
+service /app on listenerPolice {
     resource function get sayHello() returns json|error {
         json|error result = httpClient->get("/services/product-api/1.0.0/products");
         if (result is error) {
