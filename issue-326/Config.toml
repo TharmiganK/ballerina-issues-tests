@@ -1,0 +1,9 @@
+[apiConfigurations]
+baseUrl = "https://apim-apps-new.private.wso2.com"
+scope = "read"
+accessTokenUrl = "https://apim-apps-new.private.wso2.com/oauth2/token"
+clientId = "f1920HxGT9FhgztRO3YU9pqWYjUa"
+clientSecret = "dsJhN7oQyOsHL6M_af7By_wBURIa"
+
+[ballerina.http.traceLogAdvancedConfig]
+console = true
